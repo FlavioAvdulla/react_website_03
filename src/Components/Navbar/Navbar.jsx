@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 function Navbar() {
   return (
-	<nav>
+	<nav className='container'>
 	  <img src={logo} alt="" className='logo'/>
 	  <ul>
 		<li>HOME</li>
@@ -12,7 +12,7 @@ function Navbar() {
 		<li>ABOUT US</li>
 		<li>CAMPUS</li>
 		<li>TESTIMONIALS</li>
-		<li>CONTACT US</li>
+		<li><button className='btn'>CONTACT US</button></li>
 	  </ul>
 	</nav>
   )
