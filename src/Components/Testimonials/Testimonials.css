@@ -14,3 +14,44 @@
 	cursor: pointer;
 	background: #212ea0;
 }
+.back-btn {
+	right: auto;
+	left: 0;
+
+}
+.slider {
+	overflow: hidden;
+}
+.slider ul {
+	display: flex;
+	width: 200%;
+	overflow-x: hidden;
+	transition: 0.5s;
+	transform: translateX(-25%);
+}
+.slider ul li {
+	list-style: none;
+	width: 50%;
+	padding: 20px;
+}
+.slide {
+	border: 1px solid;
+	padding: 40px;
+	color: #212ea0;
+	line-height: 1.4;
+}
+.slide img {
+	width: 65px;
+	border-radius: 50%;
+	margin-right: 10px;
+	border: 1px solid #212ea0;
+}
+.user-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.user-info h3 {
+	color: #212ea0;
+}
