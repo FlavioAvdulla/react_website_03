@@ -6,3 +6,8 @@
 	border-top: 1px solid #000f38;
 	padding: 15px 0;
 }
+.footer ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
