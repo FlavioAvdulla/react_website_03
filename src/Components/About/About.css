@@ -5,17 +5,21 @@
 	justify-content: space-between;
 	width: 90%;
 }
+
 .about-left {
 	flex-basis: 40%;
 	position: relative;
 }
+
 .about-right {
 	flex-basis: 56%;
 }
+
 .about-img {
 	width: 100%;
 	/* border-radius: 10px; */
 }
+
 .play-icon {
 	width: 60px;
 	position: absolute;
@@ -24,18 +28,51 @@
 	transform: translate(-50%, -50%);
 	cursor: pointer;
 }
+
 .about p {
 	text-align: justify;
 	color: #000f38;
 	margin-bottom: 15px;
 }
+
 .about h3 {
 	font-size: 2rem;
 	font-weight: 800;
 	color: #212ea0;
 }
+
 .about h2 {
 	color: #000f38;
 	margin: 10px 0;
 	font-weight: 400;
+}
+
+/*========================================= Media Query */
+
+@media (max-width: 850px) {
+	.about {
+		flex-direction: column;
+	}
+
+	.about-left {
+		flex-basis: 100%;
+		margin: 20px;
+		order: 2;
+	}
+	.about-right {
+		flex-basis: 100%;
+	}
+	.about-right p {
+		text-align: justify;
+		text-align-last: center;
+	}
+	.about-right h2 {
+		text-align: justify;
+		text-align-last: center;
+		font-size: 2.1rem;
+	}
+	.about-right h3 {
+		text-align: center;
+		font-size: 2.3rem;
+	}
 }
