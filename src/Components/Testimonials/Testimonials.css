@@ -100,7 +100,7 @@
 
 @media (max-width: 800px) {
 	.testimonials {
-		padding: 0 40px;
+		padding: 0 70px;
 	}
 
 	.next-btn,
@@ -134,7 +134,9 @@
 	}
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 700px) {
+	.testimonials {
+		padding: 0 70px;
+	}
 	
 }
