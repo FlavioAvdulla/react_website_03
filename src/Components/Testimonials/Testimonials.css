@@ -75,117 +75,66 @@
 /*========================================= Media Query */
 
 @media (max-width: 1000px) {
-	.slide img {
-		width: 50px;
-		border: 1px solid #212ea0;
+	.user-info {
+		font-size: 0.9rem;
+		justify-content: center;
+	}
+	.next-btn, .back-btn {
+		padding: 10px;
+		width: 40px;
+	}
+}
+
+@media (max-width: 800px) {
+	.testimonials {
+		padding: 0 40px;
+	}
+
+	.next-btn, .back-btn {
+		padding: 10px;
+		width: 35px;
+	}
+	.testimonials ul li {
+		padding: 10px;
+	}
+	.slide {
+		padding: 40px;
+		text-align: justify;
 	}
 
 	.slide p {
+		text-align: justify;
+		text-align-last: center;
+		font-size: 1rem;
+	}
+
+	.slide img {
+		width: 50px;
+		border: 3px solid #212ea0;
+	}
+	.user-info {
+		font-size: 0.9rem;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.user-info h3 {
+		font-size: 1rem;
+	}
+	.slider p {
 		font-size: 1rem;
 		text-align: justify;
 		text-align-last: center;
 	}
-
 	.user-info {
-		justify-content: center;
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
-
 	.slider ul {
 		display: flex;
 		width: 400%;
 		overflow-x: hidden;
 		transition: 0.5s;
 	}
-
-	.slide {
-		padding: 40px;
-	}
-}
-
-@media (max-width: 800px) {
-	.testimonials {
-		padding: 0 70px;
-	}
-
-	.next-btn,
-	.back-btn {
-		padding: 10px;
-		width: 35px;
-	}
-
-	.testimonials ul li {
-		padding: 10px;
-	}
-
-	.slide {
-		padding: 40px;
-	}
-
-	.slide img {
-		width: 50px;
-		border: 1px solid #212ea0;
-	}
-
-	.slide p {
-		font-size: 1rem;
-		text-align: justify;
-		text-align-last: center;
-	}
-
-	.user-info {
-		justify-content: center;
-		font-size: 0.8rem;
-	}
-}
-
-@media (max-width: 600px) {
-	.user-info {
-		display: block;
-		margin-bottom: 10px;
-		font-size: 1rem;
-		align-items: center;
-	}
-
-	.user-info {
-		font-size: 1rem;
-		text-align: center;
-	}
-
-	.slider p {
-		font-size: 1rem;
-	}
-
-	.slide img {
-		margin-left: 90px;
-		margin-right: 90px;
-
-	}
-
-	.slide {
-		padding: 40px;
-	}
-
-	.next-btn,
-	.back-btn {
-		position: absolute;
-		top: 110%;
-		right: 0;
-		transform: translateY(-50%);
-		padding: 15px;
-		width: 50px;
-		margin-left: 150px;
-		margin-right: 150px;
-		border-radius: 50%;
-		cursor: pointer;
-		background: #212ea0;
-	}
-
-	.slider ul {
-		display: flex;
-		width: 200%;
-		overflow-x: hidden;
-		transition: 0.5s;
-	}
-
+	
 }
