@@ -40,6 +40,7 @@ nav ul li {
 	cursor: pointer;
 
 }
+
 .menu-icon {
 	display: none;
 }
@@ -50,8 +51,13 @@ nav ul li {
 	.logo {
 		width: 140px;
 	}
+
 	nav ul li {
 		margin: 10px 15px;
+	}
+
+	nav {
+		padding: 20px 0;
 	}
 }
 
@@ -59,6 +65,11 @@ nav ul li {
 	nav {
 		padding: 5px 0;
 	}
+
+	nav {
+		padding: 20px 0;
+	}
+
 	nav ul {
 		position: fixed;
 		top: 0;
@@ -70,15 +81,18 @@ nav ul li {
 		padding-top: 70px;
 		transition: 0.5s;
 	}
+
 	nav ul li {
 		display: block;
 		margin: 25px 40px;
 	}
+
 	.menu-icon {
 		display: block;
 		width: 30px;
 		cursor: pointer;
 	}
+
 	.hide-mobile-menu {
 		right: 0px;
 	}
