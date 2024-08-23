@@ -23,7 +23,6 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: rgba(0, 15, 152, 0.3);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -31,6 +30,11 @@
 	color: #fff;
 	cursor: pointer;
 	opacity: 0;
+	
+	
+}
+.caption:hover {
+	background: rgba(0, 15, 152, 0.3);
 	padding-top: 70%;
 	transition: 0.4s;
 }

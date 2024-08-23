@@ -83,6 +83,7 @@ nav ul li {
 	nav {
 		padding: 20px 0;
 		transition: 0.3s;
+		
 	}
 	
 	nav ul {
@@ -96,7 +97,6 @@ nav ul li {
 		transition: 0.5s;
 		backdrop-filter: blur(9px);
 		background: rgba(6, 15, 100, 0.5);
-		
 	}
 
 	nav ul li {
