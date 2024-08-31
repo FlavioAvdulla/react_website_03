@@ -9,6 +9,7 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
+import CustomCursor from "./Components/CustomCursor/CustomCursor";
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
@@ -17,6 +18,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+	  <CustomCursor/>
       <div className="container">
         <Title subTitle="Our Program" title="What We Offer" />
         <Programs />
