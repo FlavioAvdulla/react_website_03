@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import dark_arrow from "../../assets/dark-arrow.png";
+import arrow_right from "../../assets/arrow_right.svg";
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
           since the 1500s, when an unknown printer.
         </p>
         <button className="btn">
-          EXPLORE MORE <img src={dark_arrow} alt="" />
+          <a href="#">EXPLORE MORE</a> <img src={arrow_right} alt="arrow Right" />
         </button>
       </div>
     </div>

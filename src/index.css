@@ -22,21 +22,80 @@ a {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-
+/* ===================================btn wite */
 .btn {
 	background: #fff;
-	color: #212121;
 	padding: 14px 25px;
-	font-size: 16px;
 	cursor: pointer;
 	border: 0;
 	outline: 0;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.3s ease-in-out;
+	position: relative;
+
+}
+.btn a {
+	font-size: 1rem;
+	color: #212ea0;
+	z-index: 2;
+}
+.btn img {
+	z-index: 2;
+}
+.btn:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #212ea017;
+	transition: all 0.35s;
 
 }
 
+.btn:hover:after {
+	width: 100%;
+}
+/* ===================================btn blue */
+.dark-btn {
+	background: #fff;
+	padding: 14px 25px;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s ease-in-out;
+	position: relative;
+
+}
+.dark-btn a {
+	font-size: 1rem;
+	color: #212ea0;
+	z-index: 2;
+}
+.dark-btn img {
+	z-index: 2;
+}
+.dark-btn:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: #9ba5ff20;
+	transition: all 0.35s;
+
+}
+
+.btn:hover:after {
+	width: 100%;
+}
 .btn img {
 	width: 20px;
 	margin-left: 10px;

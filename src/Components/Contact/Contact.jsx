@@ -4,7 +4,7 @@ import msg_icon from "../../assets/msg-icon.png";
 import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
-import white_arrow from "../../assets/white-arrow.png";
+import arrow_right from "../../assets/arrow_right_white.svg";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -84,7 +84,7 @@ const Contact = () => {
             required
           ></textarea>
           <button type="submit" className="btn dark-btn">
-            SUBMIT NOW <img src={white_arrow} alt="" />
+            SUBMIT NOW <img src={arrow_right} alt="" />
           </button>
         </form>
         <span>{result}</span>
