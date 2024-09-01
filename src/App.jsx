@@ -18,7 +18,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-	  <CustomCursor/>
+      <CustomCursor /> {}
       <div className="container">
         <Title subTitle="Our Program" title="What We Offer" />
         <Programs />

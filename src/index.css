@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "lato", sans-serif;
+	cursor: none;
 }
 
 body {
@@ -15,7 +16,7 @@ a {
 	text-decoration: none;
 	color: inherit;
 	line-height: 1;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 .container {
@@ -26,7 +27,7 @@ a {
 .btn {
 	background: #fff;
 	padding: 14px 25px;
-	cursor: pointer;
+	/* cursor: pointer; */
 	border: 0;
 	outline: 0;
 	display: inline-flex;
@@ -63,7 +64,7 @@ a {
 .dark-btn {
 	background: #fff;
 	padding: 14px 25px;
-	cursor: pointer;
+	/* cursor: pointer; */
 	border: 0;
 	outline: 0;
 	display: inline-flex;

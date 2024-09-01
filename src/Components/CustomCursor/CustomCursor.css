@@ -5,12 +5,19 @@ body {
 .custom-cursor {
     width: 20px;
     height: 20px;
-    border: 2px solid #fff;
+	background: #ffffff6b;
+    border: 1px solid #001aff;
     border-radius: 50%;
     position: absolute;
-    pointer-events: none; /* Prevent the cursor from blocking interactions */
+    pointer-events: none;
     transform: translate(-50%, -50%);
-    transition: transform 0.1s ease;
-	mix-blend-mode: difference;
-	z-index: 1000;
+    transition: transform 0.2s ease-in-out, width 0.2s ease-in-out, height 0.2s ease-in-out;
+    /* mix-blend-mode: difference; */
+    z-index: 1000;
+}
+.custom-cursor--large {
+	width: 35px;
+	height: 35px;
+	border-radius: 20%;
+	transition: 0.3s;
 }

@@ -37,7 +37,7 @@ nav ul li {
 	color: #fff;
 	padding: 14px 25px;
 	font-size: 1rem;
-	cursor: pointer;
+	/* cursor: pointer; */
 
 }
 
@@ -108,7 +108,7 @@ nav ul li {
 	.menu-icon {
 		display: block;
 		width: 30px;
-		cursor: pointer;
+		/* cursor: pointer; */
 		transition: 0.3s;
 	}
 
