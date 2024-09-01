@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	font-family: "lato", sans-serif;
 	cursor: none;
+	scroll-padding-top: 2rem;
 }
 
 body {
@@ -105,4 +106,17 @@ a {
 .btn.dark-btn {
 	background: #212ea0;
 	color: #fff;
+}
+
+::-webkit-scrollbar {
+	width: 0.3rem;
+	background: #fff;
+	left: 100%;
+	
+}
+
+::-webkit-scrollbar-thumb {
+	width: 0.3rem;
+	background: #212ea0;
+	border-radius: 5rem;
 }

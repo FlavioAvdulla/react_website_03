@@ -12,12 +12,10 @@ body {
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: transform 0.2s ease-in-out, width 0.2s ease-in-out, height 0.2s ease-in-out;
-    /* mix-blend-mode: difference; */
     z-index: 1000;
 }
 .custom-cursor--large {
 	width: 35px;
 	height: 35px;
 	border-radius: 20%;
-	transition: 0.3s;
 }
