@@ -8,7 +8,7 @@ body {
 	background: #ffffff6b;
     border: 1px solid #001aff;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: transform 0.2s ease-in-out, width 0.2s ease-in-out, height 0.2s ease-in-out;

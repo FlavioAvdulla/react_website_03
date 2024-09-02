@@ -9,10 +9,12 @@ const CustomCursor = () => {
     );
 
     const handleMouseMove = (e) => {
-      const scrollX = window.scrollX || window.pageXOffset;
-      const scrollY = window.scrollY || window.pageYOffset;
-      cursor.style.left = `${e.clientX + scrollX}px`;
-      cursor.style.top = `${e.clientY + scrollY}px`;
+    //   const scrollX = window.scrollX || window.pageXOffset;
+    //   const scrollY = window.scrollY || window.pageYOffset;
+    //   cursor.style.left = `${e.clientX + scrollX}px`;
+    //   cursor.style.top = `${e.clientY + scrollY}px`;
+	cursor.style.left = `${e.clientX}px`;
+      cursor.style.top = `${e.clientY}px`;
     };
 
     const handleMouseEnter = () => {
